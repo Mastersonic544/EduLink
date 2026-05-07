@@ -1,0 +1,19 @@
+﻿@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sora antialiased overflow-x-hidden;
+  }
+}
+
+@theme {
+  --color-edu-navy: #0F1F3D;
+  --color-edu-teal: #00BFA6;
+  --color-edu-white: #FFFFFF;
+  --color-edu-blue: #3B82F6;
+
+  --font-sora: "Sora", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  --shadow-edu: 0 4px 20px -4px rgba(15, 31, 61, 0.05), 0 2px 8px -2px rgba(15, 31, 61, 0.02);
+}
